@@ -1,11 +1,10 @@
 #
 # Dockerfile
 #
-FROM my-rhel7-atomic
+FROM registry.access.redhat.com/rhel7/rhel-atomic
 MAINTAINER Bob Kozdemba <bkozdemba@gmail.com>
 RUN echo "Working with rhel7-atomic base images."
 
-USER 0
 
 CMD /bin/bash -c 'echo getting sleepy for 99999 seconds... ; \
 env ;\
