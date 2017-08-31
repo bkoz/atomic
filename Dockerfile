@@ -1,7 +1,7 @@
 #
 # Dockerfile
 #
-FROM registry.access.redhat.com/rhel7/rhel-atomic
+FROM registry.access.redhat.com/rhel7/rhel-atomic:7.3
 MAINTAINER Bob Kozdemba <bkozdemba@gmail.com>
 RUN echo "Working with rhel7-atomic base images."
 
