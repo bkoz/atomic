@@ -6,6 +6,6 @@ MAINTAINER Bob Kozdemba <bkozdemba@gmail.com>
 RUN echo "Working with rhel7-atomic base images."
 
 
-CMD /bin/bash -c 'echo getting sleepy for 99999 seconds... ; \
+CMD /bin/bash -c 'echo getting sleepy ... ; \
 env ;\
-/usr/bin/sleep 99999 || echo sleep start failed: $?'
+/usr/bin/tail -f /dev/null || tail start failed: $?'
